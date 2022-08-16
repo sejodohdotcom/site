@@ -1,0 +1,81 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #888;
+    overflow-x: hidden;
+}
+
+.switch-button {
+    background: #888;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 240px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    padding-right: 120px;
+    position: relative;
+}
+
+.switch-button:before {
+    content: "Basic - Rp. 105.000";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    pointer-events: none;
+    font-weight: 500;
+}
+
+.switch-button-checkbox {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.switch-button-checkbox:checked+.switch-button-label:before {
+    transform: translateX(120px);
+    transition: transform 300ms linear;
+}
+
+.switch-button-checkbox+.switch-button-label {
+    position: relative;
+    padding: 15px 0;
+    color: #fff;
+    display: block;
+    user-select: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.switch-button-checkbox+.switch-button-label:before {
+    content: "";
+    background: linear-gradient(to right bottom, #ff9a8b, #ff9288, #ff8987, #ff8086, #ff7786, #ff778a, #ff778d, #ff7791, #ff8098, #ff889f, #ff91a5, #ff99ac);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 0.5rem;
+    transform: translateX(0);
+    transition: transform 300ms;
+}
+
+.switch-button-checkbox+.switch-button-label .switch-button-label-span {
+    position: relative;
+}
