@@ -3495,7 +3495,7 @@ ol {
     border: none;
   }
   .header .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #6831e3, #f528cb);
+    background: linear-gradient(to right bottom, #ff9a8b, #ff9288, #ff8987, #ff8086, #ff7786, #ff778a, #ff778d, #ff7791, #ff8098, #ff889f, #ff91a5, #ff99ac);
   }
   .header.style2 .navbar-area.sticky .navbar-toggler {
     background: linear-gradient(45deg, #018bff, #243ec4);
@@ -3586,7 +3586,7 @@ ol {
   .header .sticky .navbar .navbar-nav .nav-item a.active,
   .header .sticky .navbar .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background: #6831e3;
+    background: linear-gradient(to right bottom, #ff9a8b, #ff9288, #ff8987, #ff8086, #ff7786, #ff778a, #ff778d, #ff7791, #ff8098, #ff889f, #ff91a5, #ff99ac);
     border-color: transparent !important;
   }
   .header.style2 .sticky .navbar .navbar-nav .nav-item a.active,
@@ -4069,7 +4069,7 @@ ol {
     border: none;
   }
   .header .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #6831e3, #f528cb);
+    background: linear-gradient(to right bottom, #ff9a8b, #ff9288, #ff8987, #ff8086, #ff7786, #ff778a, #ff778d, #ff7791, #ff8098, #ff889f, #ff91a5, #ff99ac);
   }
   .header.style2 .navbar-area.sticky .navbar-toggler {
     background: linear-gradient(45deg, #018bff, #243ec4);
@@ -4160,7 +4160,7 @@ ol {
   .header .sticky .navbar .navbar-nav .nav-item a.active,
   .header .sticky .navbar .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background: #6831e3;
+    background: linear-gradient(to right bottom, #ff9a8b, #ff9288, #ff8987, #ff8086, #ff7786, #ff778a, #ff778d, #ff7791, #ff8098, #ff889f, #ff91a5, #ff99ac);
     border-color: transparent !important;
   }
   .header.style2 .sticky .navbar .navbar-nav .nav-item a.active,
@@ -4216,7 +4216,7 @@ ol {
     margin: 0;
     margin-top: 10px !important;
     font-size: 13px;
-    width: 65%;
+    width: 100%;
   }
   .hero-area .hero-text .button .btn.primary {
     border: 2px solid #fff;
